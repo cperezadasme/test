@@ -26,7 +26,7 @@ $ git commit -a -m "comentario"
 $ git status 
 ```
 
-### subir cambios a git
+### Subir cambios a git
 
 ```
 $ git push origin nombre_rama
@@ -40,7 +40,7 @@ $ git push origin master
 ### Pull request
 Crear rama y luego hacer pull request en github
 
-### Elimar rama
+### Eliminar rama
 Del repositorio local
 ```
 $ git branch -D nombre_rama
