@@ -39,3 +39,15 @@ $ git push origin master
 
 ### Pull request
 Crear rama y luego hacer pull request en github
+
+### Elimar rama
+Del repositorio local
+```
+$ git branch -D nombre_rama
+```
+
+Del repositorio remoto (github)
+```
+git push origin --delete nombre_rama
+```
+
