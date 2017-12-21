@@ -1,28 +1,32 @@
 # Tutorial Git
 
-## Crear nueva rama
+### Crear nueva rama
 ```
 $ git checkout -b nombre_rama
 ```
 
-## Agregar cambios
+### Cambiar de rama
+```
+$ git checkout rama
+```
+### Agregar cambios
 
 ```
 $ git add -A
 ```
 
-## Commit
+### Commit
 
 ```
 $ git commit -a -m "comentario"
 ```
 
-## Ver estados
+### Ver estados
 ```
 $ git status 
 ```
 
-## subir cambios a git
+### subir cambios a git
 
 ```
 $ git push origin nombre_rama
@@ -33,5 +37,5 @@ Si no existe otra rama
 $ git push origin master
 ```
 
-## Pull request
+### Pull request
 Crear rama y luego hacer pull request en github
